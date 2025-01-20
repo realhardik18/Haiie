@@ -39,7 +39,7 @@ export default function MeditateScreen() {
 
   useEffect(() => {
     const promptInterval = setInterval(() => {
-      textOpacity.value = withSequence(
+      textOpacity.value = withTiming(
         withTiming(0, { duration: 500 }),
         withTiming(1, { duration: 500 })
       );
