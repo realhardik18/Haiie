@@ -1,0 +1,5 @@
+Work on input from user
+Get API working
+enhance UI
+add support link
+done by 23rd jan
